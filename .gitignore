@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# PyTorch models
+*.pth
+*.pt
+*.ckpt
+
+# Verilog simulation
+*.vcd
+*.vvp
+*.out
+
+# Synthesis outputs
+*.blif
+*.edif
+*.json
+*.dot
+
+# Generated figures
+figures/generated/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large library files
+*.lib
+*.lef
+*.def
